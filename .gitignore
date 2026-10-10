@@ -1,0 +1,29 @@
+# Local OS and editor artifacts
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Local evaluation artifacts
+work/
+node_modules/
+/docs/review-log.md
+/docs/workflow-design.md
+
+# Local credentials and environment configuration
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+.npmrc
+.netrc
+
+# Local Python environments, caches, and logs
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.log

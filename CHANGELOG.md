@@ -2,19 +2,27 @@
 
 Versions apply to the skills collection as a whole. Each published version has a matching Git tag, such as `v0.1.0`.
 
-## Unreleased
+## 0.2.0 — 2026-10-12
 
-- Enforce explicit-only invocation for both Codex and Claude Code; document native invocation and wrapper limitations.
-- Refine partial-engagement boundaries, delegated decisions, conditional handoffs, and optional comparisons; reduce duplicate status and decision instructions.
+### Changed
 
-- Require vertical-slice delivery milestones with integrated user outcomes and end-to-end checks; bound any separate foundation work to the slice it enables.
+- **Invocation change:** the skill now requires explicit invocation in Codex and Claude Code. Select `$product-development` in Codex or use `/product-development` in Claude Code; ordinary matching requests no longer activate it automatically.
+- Route work by unresolved decisions and reuse sufficient existing material instead of requiring a full stage sequence. Keep partial engagements within their requested deliverable.
+- Define delegated decision authority, work readiness, bounded research, and conditions for reopening accepted concerns.
+- Plan implementation as vertical slices with usable end-to-end outcomes and verification. Tie separate foundation work to the slice it enables.
+- Clarify conditional handoffs and propagate consequential revisions across affected artifacts.
+- Consolidate shared guidance and simplify references and templates while retaining optional validation and the planning-only boundary.
 
-- Make invocation explicit in Codex through `agents/openai.yaml`; shorten the description around the planning contract.
-- Route work by unresolved decisions, with concrete completion criteria and no mandatory stage march.
-- Define delegated decision authority, separate work readiness, bounded research, and conditions for reopening accepted concerns.
-- Add conditional handoff and artifact consistency rules; preserve optional validation and the planning-only boundary.
-- Consolidate shared guidance and simplify templates; retain one integrated skill.
-- Add reproducible behavioral evaluation scenarios. Host invocation and behavioral evaluations remain pending.
+### Added
+
+- Behavioral evaluation scenarios covering invocation, planning reliability, vertical slices, and partial engagements.
+- Installation and explicit-invocation guidance for Codex and Claude Code, including wrapper limitations.
+
+### Validation and known limitations
+
+- One successful informal user walkthrough was reported; controlled behavioral comparisons and host invocation verification remain pending.
+- Local link and invocation-policy syntax checks passed. The bundled Codex scaffold validator rejects the documented Claude invocation field; the remaining scaffold passed on a temporary copy with that field omitted.
+- This remains a development draft. No license has been selected.
 
 ## 0.1.0
 

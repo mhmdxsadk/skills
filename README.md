@@ -2,13 +2,13 @@
 
 Skills I've developed for planning and building digital products.
 
-**Version: 0.1.0** — initial development draft. See the [changelog](CHANGELOG.md).
+**Version: 0.2.0** — refined development draft. See the [changelog](CHANGELOG.md).
 
 ## product-development
 
 Turn a raw product idea or problem into an implementation-ready specification through discovery, critical evaluation, scoping, requirements, UX definition, technical design, and implementation planning.
 
-**Status: development draft.** Guidance and adaptable templates now cover the full planning workflow, including optional validation, implementation planning, and naming. Local links and invocation-policy syntax checks pass; see validation limits below. Controlled behavioral evaluation and host invocation checks remain before release.
+**Status: development draft.** Guidance and adaptable templates now cover the full planning workflow, including optional validation, implementation planning, and naming. Local links and invocation-policy syntax checks pass; see validation limits below. Controlled behavioral evaluation and host invocation checks remain pending.
 
 The skill works for a founder defining their own product or someone working with a client. It adapts the depth to the problem, evidence, and consequences of getting the decision wrong. Its responsibility ends at a specification and build plan.
 

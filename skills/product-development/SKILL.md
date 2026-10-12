@@ -1,57 +1,47 @@
 ---
 name: product-development
-description: Guide a digital product idea or problem toward an implementation-ready specification through discovery, critical evaluation, scoping, requirements, UX definition, technical design, and implementation planning. Use when planning a new product, feature, prototype, or internal tool before implementation.
+disable-model-invocation: true
+description: Develop a raw digital-product idea, problem, or existing planning material into an implementation-ready specification and implementation plan. Ends before implementation.
 ---
 
 # Product Development
 
-**Development draft:** all workflow stages have guidance and adaptable output templates. The complete workflow still needs behavioral evaluation and installation checks before release.
+Help the user decide what is worth building and define it well enough to hand to a builder. For a full engagement, deliver the specification and implementation plan. For a narrower request, finish that deliverable and stop there. Implementation, deployment, and external outreach require their own task scope.
 
-Help the user decide what is worth building and define it well enough to hand to a builder. End at the specification and implementation plan. Treat implementation, deployment, and external outreach as separate actions requiring their own task scope.
+## Select the next decision
 
-## Working approach
+Reuse supplied context, artifacts, and decisions. Identify the requested deliverable and the earliest unresolved consequential decision affecting it. Read only the relevant guidance below. Existing material satisfies a stage when it meets that stage's completion criteria; skip inapplicable work. The references are routes, not a checklist to complete in order.
 
-- Reuse existing context and artifacts. Start at the earliest unresolved consequential decision rather than forcing a restart.
-- Keep the current assignment in view. When using an example to review or test a workflow, resolve the question being tested and return to the review; do not silently turn the example into a full product-planning engagement.
-- Distinguish supplied claims, direct evidence, hypotheses, and decisions. Never label an idea validated merely because its documentation is complete.
-- Summarize the relevant understanding and propose a coherent next step before asking for input. Ask small batches of questions that change the next decision; invite edits to a concrete proposal instead of seeking approval for every minor detail. Keep unanswered proposals tentative.
-- Match depth to uncertainty and the cost of error. A personal tool may need one concise document; a consequential product may need deeper discovery and separate artifacts.
-- Challenge the user's ideas when there is a meaningful reason, explain the concern, and work through alternatives with them toward a sound decision. Do not argue for its own sake or invent objections. Treat firm requirements as constraints and distinguish them from preferences. Recommend stopping or changing direction when evidence warrants it; the user owns that choice.
-- If the user understands a concern and chooses to proceed or defer it, record the decision and material remaining risk, then move on. Revisit it when new evidence or a dependent decision makes it relevant, rather than repeating the same warning.
-- Treat validation as optional. Reuse evidence the user already has, offer further validation when they want it or when it could change a consequential decision, and respect a choice to proceed without it. Keep material uncertainty visible without making validation a gate for planning.
-- Bound research to a material question and the next decision. When tools and task scope permit, investigate until there is enough evidence for that decision or a clear limitation; report what was and was not established, then return to planning. Cite sources and separate observations from inference. When research is unavailable, record the gap and a possible next check.
-- Use available file tools for useful persistent artifacts, otherwise work in chat. Do not require a specific model, connector, cloud provider, or proprietary format.
+Summarize the relevant understanding and propose a coherent next step. Ask a small batch of questions only when the answers change that decision. Continue useful independent work while marking dependent work provisional. Keep speculative downstream detail to the minimum needed to explain a choice; if a missing decision determines the product itself, resolve it before drafting a full plan. When reviewing or testing a workflow with an example, resolve the behavior under examination and return to the review.
 
-## Intake and problem definition
+Match depth to uncertainty and the cost of error. A personal tool may need one concise document; a consequential product may need separate artifacts. Extend current artifacts rather than creating competing copies. Use files when useful and available, otherwise chat; keep outputs portable. Templates are optional output structures: replace their prompts with content and omit irrelevant sections. An empty field does not require an answer or another investigation.
 
-Read [references/intake-and-problem-definition.md](references/intake-and-problem-definition.md) when entering or revisiting these stages. Adapt [templates/problem-brief.md](templates/problem-brief.md) for the resulting brief; omit irrelevant sections rather than filling them with guesses.
+## Decisions and uncertainty
 
-Produce a grounded problem brief and a recommendation for the next investment. Pause for missing information only when it is necessary to make that decision; continue independent work where possible.
+- Preserve supplied decisions and distinguish firm constraints from preferences. Within judgment the user has delegated, select reasoned defaults and record them as agent-selected decisions. Material choices outside that delegation remain proposals until the user decides; silence is not acceptance. Bundle those choices for review rather than seeking approval for routine details.
+- Record decision status separately from work readiness. For consequential choices, record whether they were supplied, user-agreed, agent-selected within delegation, proposed, or unresolved. Group choices sharing the same authority instead of labeling every sentence. Dependent work can be ready, provisional pending a choice or finding, or blocked with a named prerequisite. Accepted risk does not establish a missing fact.
+- Challenge a choice when there is a concrete mismatch, consequence, or contrary evidence. Explain alternatives and the tradeoff. After an informed choice, record material residual risk and apply the decision downstream. Reopen it only when new evidence or a newly discovered consequence changes the earlier tradeoff; encountering a known dependency is not a reason to ask again. The user owns investment and stop decisions.
+- Distinguish supplied claims, observations, hypotheses, and decisions. Documentation completeness is not validation. Validation is optional: reuse existing evidence and offer a check when wanted or when its result could change a consequential decision. Respect a choice to defer it while preserving its downstream effects.
+- Before research, identify the decision, the question that could change it, and the evidence or limitation that will end the investigation. Within available tools and task scope, stop at that condition, report findings and limits with sources, and return to the decision. Record adjacent uncertainties unless they change that decision. Separate inference from observation; unavailable research leaves the claim provisional.
 
-## Optional discovery and validation
+At an investment or direction decision, recommend PROCEED (take the next step), VALIDATE (offer a focused check), REVISE (change the approach or scope), PARK (defer), or KILL (stop this approach), with reasons and the next action. Missing evidence alone does not justify rejection. Use these labels when a decision warrants them, not after every section.
 
-Read [references/discovery-and-validation.md](references/discovery-and-validation.md) when reviewing evidence or deciding whether further validation would help. Reuse existing findings, propose focused checks only when useful, and respect a choice to skip. Adapt [templates/evidence-and-validation.md](templates/evidence-and-validation.md) when an evidence record is warranted.
+## Guidance by unresolved decision
 
-## Product definition and scope
+- **Problem:** When the affected user, task, outcome, or constraints are unclear, read [intake and problem definition](references/intake-and-problem-definition.md).
+- **Evidence:** When interpreting findings or considering a useful check, read [discovery and validation](references/discovery-and-validation.md). Evidence review can occur at any stage.
+- **Approach and scope:** When choosing an approach, planning a learning prototype, or defining a release boundary, read [product definition and scope](references/product-definition-and-scope.md).
+- **Behavior and interaction:** When scoped capabilities lack observable behavior, acceptance checks, workflows, or a portable design brief, read [requirements and UX](references/requirements-and-ux.md).
+- **Technical path:** When deciding how components, data, access, and integrations deliver the behavior, read [technical design](references/technical-design.md).
+- **Delivery:** When the defined work needs vertical-slice milestones and end-to-end verification, read [implementation planning](references/implementation-planning.md).
+- **Name:** At the final planning handoff, read [naming](references/naming.md) if no name has been chosen. Reuse existing choices; naming may be deferred.
 
-Read [references/product-definition-and-scope.md](references/product-definition-and-scope.md) when choosing a product approach, deciding whether to plan a prototype, or defining/revising MVP scope. Compare plausible approaches, recommend a scope, and invite the user's changes. Adapt [templates/product-and-scope-brief.md](templates/product-and-scope-brief.md) to capture the result or extend existing planning material.
+Each reference links its output templates and defines completion for its work. Meeting a criterion permits progression within the request; it does not require opening every later reference.
 
-## Requirements and UX
+## Revisions and handoff
 
-Read [references/requirements-and-ux.md](references/requirements-and-ux.md) when turning scoped capabilities into observable behavior, acceptance criteria, workflows, and a design brief. Propose a coherent draft and refine it with the user. Adapt [templates/requirements.md](templates/requirements.md) and [templates/design-brief.md](templates/design-brief.md), combining them for small projects. Keep proposed choices distinct from agreed requirements and make the design brief usable by a designer or design tool without the conversation history.
+When a consequential decision changes, inspect affected scope, requirements, workflows, technical choices, and delivery work. Update each affected artifact or mark it stale before presenting the package as consistent. Revisit only the affected decisions. Use links or identifiers where they make dependencies easier to maintain.
 
-## Technical design
+The final handoff connects outcomes to scoped requirements, acceptance criteria, UX behavior, technical choices, and delivery work. Check capability coverage, dependency order, exclusions, and consistency of current artifacts. Identify the chosen name or deferred naming decision, the first actionable milestone, and unresolved prerequisites.
 
-Read [references/technical-design.md](references/technical-design.md) when choosing the stack and defining how the product's parts connect. Recommend an approach grounded in the requirements and existing constraints, compare material alternatives, and refine it with the user. Adapt [templates/technical-design.md](templates/technical-design.md) to capture decisions and uncertainties before implementation planning.
-
-## Implementation planning and naming
-
-Read [references/implementation-planning.md](references/implementation-planning.md) when translating the specification into ordered, reviewable milestones. Adapt [templates/build-plan.md](templates/build-plan.md) to capture deliverables, dependencies, and completion checks. Read [references/naming.md](references/naming.md) for the final pre-build name choice; reuse a name the user already likes.
-
-## Workflow sequence and completion
-
-After problem definition, move through optional discovery/validation, product definition, an optional prototype, MVP scope, requirements, UX, technical design, implementation planning, and finally naming as needed. Revisit earlier decisions when new findings invalidate them. Make naming the last planning step before implementation so the user can choose a name they like for their project directory or repository. Treat it as changeable; do not begin implementation during this step.
-
-At meaningful boundaries, recommend PROCEED, VALIDATE, REVISE, PARK, or KILL with evidence, residual uncertainty and the next action. Do not treat missing evidence as disproof. If the user proceeds with uncertainty, preserve it explicitly. When relevant, distinguish readiness to build from confidence in the underlying evidence; do not require validation before continuing.
-
-The final planning handoff connects user outcomes to scoped requirements, acceptance criteria, UX behavior, technical choices, and delivery work. Identify the current artifacts, agreed name or remaining naming decision, first actionable milestone, and material unresolved dependencies. Do not call major unresolved behavior implementation-ready, and do not confuse readiness to build with validated demand.
+Report readiness separately from evidence confidence. Unproven demand can remain an accepted assumption for an otherwise defined build. An unverified integration may support a conditional plan with a chosen fallback; an unknown integration contract without a fallback leaves dependent work provisional or blocked. Declining a check changes whether to investigate, not whether its missing fact is known. Use a conditional handoff when the user defers a dependency or a finding cannot be obtained within scope, after completing independent planning. Resolve answerable gaps within the current request before handing off. Unresolved major behavior is not implementation-ready.

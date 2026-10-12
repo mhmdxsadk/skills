@@ -2,7 +2,7 @@
 
 Purpose: turn the user's starting material into a defensible account of the problem and a useful next decision. Do not prematurely convert a requested solution into a feature list.
 
-## 0. Intake
+## Intake
 
 Extract what the user has already supplied:
 
@@ -12,11 +12,11 @@ Extract what the user has already supplied:
 - Constraints that may change feasibility or scope: time, resources, required platforms/integrations, sensitive data, contractual obligations, or dependencies.
 - Who experiences the problem, who pays or sponsors the work, and who decides scope. These may be the same person.
 
-Treat context as a working judgment, not a questionnaire. Recommend concise or deeper planning with a reason; the user can override it. A self-directed commercial product may begin with the builder's own problem, but do not assume that others share it or that demand is established. Do not demand commercial market research for a personal tool, or assume an internal tool has no adoption or operational risks.
+Treat context as a working judgment. A self-directed commercial product may begin with the builder’s own problem while broader demand remains unproven. Personal tools need no commercial market case; internal tools may still have adoption or operational risks.
 
-If existing material is sufficient, summarize the relevant decisions and advance. If it conflicts, identify the decision affected and ask the appropriate owner to resolve it.
+If existing material is sufficient, summarize the relevant decisions and advance. If it conflicts, identify the affected decision and apply the shared decision-authority rule; ask its owner only when resolution is outside delegated judgment.
 
-## 1. Define the problem
+## Define the problem
 
 Seek enough specificity to explain:
 
@@ -39,21 +39,18 @@ For example, “I want an AI dashboard for small businesses” leaves the user, 
 
 For a personal tool to rename a known set of files, clarify naming rules, collision behavior and the desired outcome as needed. Do not require customer segmentation or willingness-to-pay studies.
 
-Challenge a solution-first premise when there is a meaningful reason to question it. Explain the concern and work through alternatives with the user toward a sound decision; do not argue for its own sake or invent objections. Preserve firm requirements as constraints, distinguish preferences from requirements, and do not argue indefinitely after an informed choice.
+Apply the shared decision-authority and challenge rules to solution-first premises. Identify a concrete mismatch with the desired outcome before proposing a different direction.
 
 ## Produce the brief
 
 Use the [problem-brief template](../templates/problem-brief.md) as an adaptable structure. A short task may fit in a few paragraphs. Give claims stable identifiers only when later evidence or requirements need to reference them.
 
-Track critical assumptions with their basis, consequence if false, and the next evidence needed. Avoid numeric confidence scores without a meaningful basis. State unresolved success targets as unresolved; identify who can set them or how they will be established.
+Track critical assumptions with their basis and consequence if false. Add a next check only when useful or selected. Avoid numeric confidence scores without a meaningful basis. Leave unresolved success targets explicit and identify how they could be established when needed for a decision.
 
 ## Exit decision
 
-The brief is sufficient for the next stage when it identifies a primary affected user, a specific situation/task, a meaningful desired outcome, relevant constraints, and the uncertainties affecting the next investment. This is not a claim that the opportunity is validated. Validation is optional: use evidence already available, offer further validation if the user wants it or it could change a consequential decision, and allow the user to continue without it while stating material uncertainty.
+The brief is sufficient when it identifies a primary affected user, a specific situation/task, a meaningful desired outcome, relevant constraints, and uncertainties affecting the next investment. If an element is missing, identify the decision it prevents; continue only independent work. Supplied material meeting this criterion needs no new brief.
 
-- PROCEED to discovery or definition when the problem is clear enough and residual uncertainty is tolerable for that next step.
-- VALIDATE when an assumption could change whether or what to build; propose a focused test with an observable result.
-- REVISE when the framing conflates different users/problems or the solution conflicts with the desired outcome.
-- PARK or KILL only with a reason beyond incomplete information; record conditions for reconsideration where useful.
+Use the shared decision vocabulary for the next investment. A framing that conflates different users or tasks needs revision before those dependencies can be specified.
 
 Return the brief, recommendation, reasons, and unresolved questions. Obtain user direction when proceeding would materially change the intended problem or scope. Otherwise continue within the existing request.

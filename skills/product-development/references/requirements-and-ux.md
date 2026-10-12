@@ -2,11 +2,11 @@
 
 Purpose: turn the chosen scope into collaboratively defined product behavior, user workflows, and a portable design brief. Give a builder and designer enough direction to work without inventing major behavior, while leaving proposed choices open to user input.
 
-## Start from the agreed scope
+## Start from the selected scope
 
 Reuse existing requirements, designs, platform choices, and the product-and-scope brief. Summarize the intended users, core outcome, included capabilities, and relevant unresolved decisions. If a scope choice is still provisional, keep its dependent requirements provisional too. Do not reopen settled choices merely to fill a template.
 
-For a small product, a few paragraphs and a flow may suffice. For a larger one, use separate requirement and design sections or documents. Add identifiers only when they make references across requirements, flows, and later tasks easier to maintain.
+Use identifiers when references across requirements, flows, and delivery tasks need them.
 
 ## Propose requirements, then refine together
 
@@ -16,7 +16,7 @@ Acceptance criteria should describe observable conditions that demonstrate the b
 
 For example, an upload requirement might propose that a successfully saved document appears in the library and a failed upload offers recovery without claiming success. Supported formats and size limits remain proposed or unresolved until established. A criterion such as “upload works correctly” is too vague to verify.
 
-Present related requirements as a coherent draft, explain consequential choices, and invite corrections or additions. Ask focused questions about differences that materially affect behavior. Routine wording does not need individual approval. Keep proposed, agreed, and unresolved details distinguishable; silence is not acceptance of an assumption.
+Present related requirements as a coherent draft and explain consequential choices. Apply the shared decision-authority rule; ask about material differences outside delegated judgment and record what each unresolved choice affects.
 
 When a requested change expands scope, explain its effect and update the scope decision before treating it as an agreed requirement. Apply the shared rule for constructive pushback and respect the user's informed choice.
 
@@ -28,7 +28,7 @@ Zoom in on individual features when their steps, branches, or states need more d
 
 Include material loading, empty, partial, error, and success states where applicable. Explain what users know, what they can do next, and whether their input or progress is preserved. Define permissions and accessibility needs that affect completing the task. Do not force a state checklist onto a feature that does not need it.
 
-Use plain steps, a diagram, or a small state table according to what makes the behavior easiest to review. Cross-reference requirements rather than duplicating whole descriptions. If a flow reveals missing or contradictory behavior, revise the affected requirement with the user; do not silently introduce features through UX work.
+Use plain steps, a diagram, or a small state table according to what makes the behavior easiest to review. Cross-reference requirements rather than duplicating whole descriptions. If a flow reveals missing or contradictory behavior, revise the affected requirement within delegated judgment or raise the material choice for user review; do not silently introduce features through UX work.
 
 ## Produce a design brief
 
@@ -50,6 +50,4 @@ For a product without a graphical interface, describe its interaction surfaces a
 
 Adapt the [requirements template](../templates/requirements.md) and [design brief template](../templates/design-brief.md), or extend existing artifacts. They may be sections in one document rather than separate deliverables.
 
-Review whether each included capability has understandable behavior and meaningful completion checks, whether important user goals can be completed through the flows, and whether the design brief reflects those decisions. Record remaining questions and which downstream choices depend on them.
-
-When the material is agreed and clear enough, proceed to technical design. Continue independent technical planning if some choices remain open, but do not describe unresolved major behavior as implementation-ready. Do not begin implementation as part of this stage.
+The defined work is ready for technical planning when each included capability has observable behavior and acceptance checks, core goals can be completed through the flows, and the design brief reflects those decisions. Identify the decision authority and downstream effects of open choices. Continue independent technical work; apply the shared readiness rule to unresolved behavior.

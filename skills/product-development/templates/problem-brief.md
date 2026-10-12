@@ -1,6 +1,6 @@
 # Problem brief
 
-Use only sections that help the current decision. Replace prompts with supported content; record unknowns explicitly. Do not treat an empty field as permission to invent an answer.
+Replace prompts with supported content; omit sections that do not help the current decision.
 
 ## Context and decision
 
@@ -24,9 +24,9 @@ Separate fixed constraints from preferences and proposed solutions. Record their
 
 ## Evidence and critical assumptions
 
-| Claim or assumption | Basis/source | What remains uncertain | Consequence if false | Next evidence needed |
+| Claim or assumption | Basis/source | What remains uncertain | Consequence if false | Next check, if useful or selected |
 | --- | --- | --- | --- | --- |
 
 ## Recommendation and next step
 
-Recommend PROCEED, VALIDATE, REVISE, PARK, or KILL. Give reasons, unresolved risks, and the next decision or experiment. Record the user's decision separately when it differs from the recommendation.
+Record the recommendation, reasons, unresolved risks, and next action. Use the shared decision label when an investment or direction decision warrants it. Record the user's decision separately when it differs from the recommendation.

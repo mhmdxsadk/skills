@@ -1,6 +1,6 @@
 # Evidence and optional validation
 
-Use only when useful; this can be a section of the problem brief. Distinguish supplied claims, observations, inferences, and decisions.
+Use when an evidence record is useful, as a brief section or separate artifact. Link an existing record rather than copying it.
 
 ## Decision and existing evidence
 
@@ -12,7 +12,7 @@ Describe the assumption, its current basis, and what changes if it is wrong. Sta
 
 ## Proposed check, if needed
 
-Describe the method, participants or source material, observation sought, stopping point, and how results would affect the decision. Mark execution as planned, authorized, performed, or not performed as appropriate; do not imply a plan has produced evidence.
+Describe the method, participants or source material, observation sought, stopping point, and how results would affect the decision. Record whether the check was performed and reference actual findings, if any. Record execution authorization separately when relevant.
 
 ## Findings and decision
 

@@ -1,6 +1,6 @@
 # Technical design
 
-Adapt to the project's size and reuse existing material. Distinguish proposed, agreed, and provisional choices; omit irrelevant sections.
+Use the relevant fields below; reference existing material.
 
 ## Drivers and constraints
 
@@ -8,7 +8,7 @@ Link or summarize the requirements and workflows that shape the design. Capture 
 
 ## Recommended approach and decisions
 
-Describe the proposed stack and why it fits. For material choices, record credible alternatives, tradeoffs, decision status, and what would justify revisiting the choice. Include sources and dates for current claims; state assumptions behind cost estimates.
+Describe the proposed stack and why it fits. For material choices, record credible alternatives, tradeoffs, decision authority, and what would justify revisiting the choice. Include sources and dates for current claims; state assumptions behind cost estimates.
 
 ## Components and data flow
 

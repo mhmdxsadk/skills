@@ -1,20 +1,22 @@
 # Build plan
 
-Adapt the depth to the project. Link current planning artifacts instead of duplicating them. Mark proposed, agreed, provisional, and blocked work clearly.
+Link current artifacts. Record decision authority separately from work readiness.
 
 ## Planning inputs and release boundary
 
 Summarize the intended outcome and included/excluded scope. Reference the problem and scope briefs, requirements, design brief, technical decisions, and relevant evidence.
 
-## Milestones
+## Vertical-slice milestones
 
 For each milestone:
 
-- **Outcome:** What the user can try or review.
+- **User outcome:** The narrow capability that works end-to-end after this slice.
 - **Coverage:** Requirements or workflows delivered.
-- **Prerequisites:** Earlier milestones or unresolved decisions needed.
-- **Tasks:** For each, specify the deliverable, dependencies, and completion check.
-- **Milestone check:** How to demonstrate the outcome and relevant failure behavior.
+- **Readiness and prerequisites:** Ready, provisional, or blocked; identify earlier milestones, decisions, or findings needed.
+- **Tasks:** The interaction, logic, data, and integration work this slice needs. For each task, specify the deliverable, dependencies, and completion check.
+- **End-to-end check:** How to demonstrate the integrated outcome and relevant failure behavior.
+
+For any separate foundation work, identify its bounded deliverable and the slice it enables.
 
 ## Open decisions and deferred work
 
@@ -26,4 +28,4 @@ Use a working label until the final naming stage. Record the user-chosen display
 
 ## Readiness and next action
 
-State what is ready to build, any remaining pre-build decisions, and the first actionable milestone. Distinguish implementation readiness from confidence in demand. Planning does not itself authorize implementation or external setup.
+State what is ready to build, any remaining pre-build decisions, and the first actionable milestone (or the first decision needed if none is ready). Distinguish implementation readiness from confidence in demand.

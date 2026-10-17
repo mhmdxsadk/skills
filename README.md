@@ -12,7 +12,7 @@ Turn a raw product idea or problem into an implementation-ready specification: d
 
 ```sh
 npx skills add mhmdxsadk/skills --list
-npx skills add mhmdxsadk/skills --skill product-development -g -a codex -a claude-code
+npx skills add mhmdxsadk/skills --skill product-development --global
 ```
 
 ## Usage
